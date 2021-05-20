@@ -44,10 +44,12 @@ form {
 
 .button__register {
   float: right;
-  color: #7f8084;
   border: 1px solid #22272d;
   padding: 7px 15px;
   border-radius: 3px;
+  background: #1a1f25;
+  color: white;
+  text-align: center;
   font-size: 0.8em;
   cursor: pointer;
 }

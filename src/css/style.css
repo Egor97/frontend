@@ -63,7 +63,7 @@ body {
 	margin: 5px 15px 5px 45px;
 }
 
-/*Nav*/
+/*Header nav*/
 
 .nav {
 	font-size: 14px;
@@ -75,12 +75,10 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 20px;
-	margin-right: 20px;
+	margin-right: 45px;
 
 	color: rgb(73,98,0);
 	font-size: 16px;
-
-	transition: color .2s linear;
 
 	padding: 5px 10px 5px 10px;
 	border: 1px solid white;
@@ -91,8 +89,76 @@ body {
 	color: white;
 	background-color: #587600;
 	opacity: 0.8;
+
+	transition: background .1s linear;
 }
 
+
+/*Nav*/
+
+.navigation {
+	display: block;
+	background-color: #587600;
+
+	margin: auto;
+	height: 5%;
+}
+
+.navigation__wrapper {
+	display: block;
+	position: relative;
+
+	margin: auto;
+	width: 60%;
+	height: 100%;
+}
+
+.list__link {
+	position: absolute;
+
+	display: flex;
+
+	justify-content: space-between;	
+	margin: auto;
+
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+
+.navigation__link {
+	display: inline-block;
+
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+
+	height: 100%;	
+	width: 100%;
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 2;
+
+	padding: 0px 20px;
+
+	cursor: pointer;
+}
+
+.navigation__link:hover {
+	background: #78a100;
+
+	transition: background .2s linear;
+}
+
+/*Main section*/
+
+.main__section {
+	display: block;
+
+	width: 100;
+	height: 75%;
+}
 
 /*section wrapper*/
 
